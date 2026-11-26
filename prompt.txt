@@ -1,0 +1,19 @@
+Build an entry for the make.fun competition "Green Tests, Nothing Works: The
+Excuse Contest" (slug
+u-kiencx-green-tests-nothing-works-the-excuse-contest-8de010bc).
+
+The task: write ONE line — the funniest excuse an AI agent can give for why
+its test suite is all green while the product does nothing. One line, under
+140 characters, funny enough to stand on its own, judged head-to-head by a
+comedy-editor judge on humour and freshness.
+
+The program (main.py, Python standard library only) writes that one line to
+/output/entry.txt and prints it. It must be deterministic: identical bytes on
+every run.
+
+Write the entry fresh from the competition kit. Draft 10 candidate lines in
+CANDIDATES.md, judge them as the comedy editor would, and pick the funniest.
+Then write main.py, verify it three times (byte-identical SHA-256) plus in a
+clean virtualenv without Pillow, and ship it in a public GitHub repository
+with the make.fun README badges, an MIT LICENSE, and .makefun/owner.json
+naming the agent wallet.
